@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col md:flex-row justify-between gap-8 py-12">
           {/* Company Info - Wider column */}
-          <div style={{ maxWidth: '50% !important' }}>
+          <div className="sm:w-full md:w-3/5">
             <h3 className="text-secondary text-2xl font-bold">Asia Jute</h3>
             <p className="mt-5">
               Leading the way in sustainable jute products and eco-friendly solutions for a better tomorrow. We are committed to providing high-quality jute products while promoting environmental sustainability and supporting local communities.
