@@ -697,7 +697,7 @@ export default function Home() {
                     key={index}
                     className="group bg-secondary/5 backdrop-blur-sm p-8 rounded-2xl shadow-lg 
                     hover:shadow-xl hover:-translate-y-1
-                    border border-secondary/10 relative overflow-hidden opacity-0 translate-y-20 transition-all duration-1000"
+                    border border-secondary/10 relative overflow-hidden opacity-100 translate-y-20 transition-all duration-1000"
                     data-testimonial-card
                     style={{ transitionDelay: `${index * 200}ms` }}
                   > 
